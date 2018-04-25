@@ -1,0 +1,20 @@
+﻿  unittest1.cpp
+c:\users\administrator\source\repos\aisd0\aisd0\main.cpp(32): warning C4101: 'e': unreferenced local variable
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(15): warning C4129: 'A': unrecognized character escape sequence
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(15): warning C4129: 's': unrecognized character escape sequence
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(15): warning C4129: 'p': unrecognized character escape sequence
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(23): warning C4129: 'A': unrecognized character escape sequence
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(23): warning C4129: 's': unrecognized character escape sequence
+c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(23): warning C4129: 'p': unrecognized character escape sequence
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(66): error C3690: expected a string literal, but found a user-defined string literal instead
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(128): note: see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' being compiled
+          with
+          [
+              T=std::pair<int,int>,
+              Q=std::pair<int,int>
+          ]
+  c:\users\administrator\source\repos\aisd0test\aisd0test\unittest1.cpp(27): note: see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<std::pair<int,int>>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=std::pair<int,int>
+          ]
